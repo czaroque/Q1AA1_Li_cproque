@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Young+Serif&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    height: 5vh;
+    width: 97vw;
+    background-color: rgb(76, 107, 143);
+    border: 1px solid black;
+    padding: 3vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Young Serif', serif;
+}
+.logo img{
+   border-radius: 50%; 
+   float: left;
+   border: 1px solid white;
+}
+.rightlinks{
+    float: right;
+    margin: 2vw;
+    display: inline-flex;
+    margin-top: 8px;
+    padding: 5px;
+}
+.rightlinks a{
+    color: white;
+    text-decoration: none;
+    border: white solid 1px;
+    margin: 10px;
+    padding: 1px;
+    transition: .4s;
+    background-color: rgb(126, 171, 211);
+}
+.rightlinks a:hover{
+    opacity: .5; transition: .4s;
+}
+.banner{
+    background-image: url(images/starsd.jpg);
+    background-color: rgb(76, 107, 143);
+    border: solid rgb(126, 171, 211) 2vw;
+    margin: 25px;
+    position: absolute;
+    left: 12.5vh;
+    right: 12.5vh;
+    height: 65vh;
+}
+.bannertext{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Young Serif', serif;
+    justify-content: center;
+}
+.name{
+    display: inline;
+    color: rgb(126, 171, 211);
+}
+.bannersmall p{
+    color: white;
+}
+.bannersmall h3{
+    color: white;
+}
+.bbtext{
+    
+    background-color: rgb(76, 107, 143);
+    margin-left: 15vw;
+    padding: 10vh;
+    padding-top: 5px;
+    border: 1px white solid;
+    display: inline-block;
+}
+.bbtext a{
+    margin-left: 19vw;
+}
+.footer{
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    background-color:  rgb(76, 107, 143);
+    border: 1px solid white;
+    height: 9vh;
+    width: 100vw;
+    display: inline-block;
+}
+.footer p{
+    color: white;
+    margin-top: 1vw;
+    margin-left: 3vw;
+}
+.links{
+    display: inline;
+}
+.links a{
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+    padding: 1px;
+    opacity: 1;
+    transition: .4s;
+    height: 10px;
+    width: 50px;
+}
+.links img{
+    border-radius: 50%;
+}
+.links a:hover{opacity: .5; transition: .4s;
+}
+.images{
+    display: inline;
+}
+.pixo{
+    display: inline;
+}
+
+.pixt{
+    display: inline;
+}
+
+.gallery{
+    color: rgb(126, 171, 211) ;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Young Serif', serif;
+}
+
+
